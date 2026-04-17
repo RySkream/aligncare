@@ -12,7 +12,7 @@ export function Header() {
           <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[image:var(--gradient-hero)] shadow-[var(--shadow-soft)]">
             <Heart className="h-4 w-4 text-primary-foreground" fill="currentColor" />
           </div>
-          <span className="text-lg font-semibold tracking-tight text-foreground">Haven Care</span>
+          <span className="text-lg font-semibold tracking-tight text-foreground">Align Care</span>
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
           <Link to="/" className={linkCls} activeOptions={{ exact: true }} activeProps={activeCls}>Home</Link>

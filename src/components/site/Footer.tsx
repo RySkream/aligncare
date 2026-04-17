@@ -11,7 +11,7 @@ export function Footer() {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[image:var(--gradient-hero)]">
                 <Heart className="h-4 w-4 text-primary-foreground" fill="currentColor" />
               </div>
-              <span className="text-base font-semibold text-foreground">Haven Care</span>
+              <span className="text-base font-semibold text-foreground">Align Care</span>
             </div>
             <p className="mt-4 max-w-sm text-sm text-muted-foreground">
               Connecting people with compassionate, evidence-based mental health and substance use care — matched to your clinical needs.
@@ -33,7 +33,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-10 border-t border-border/60 pt-6 text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Haven Care. Not a substitute for emergency medical care.
+          © {new Date().getFullYear()} Align Care. Not a substitute for emergency medical care.
         </div>
       </div>
     </footer>

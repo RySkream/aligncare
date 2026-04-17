@@ -10,9 +10,9 @@ import { Phone, Mail, MessageCircle, CheckCircle2 } from "lucide-react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Haven Care" },
+      { title: "Contact — Align Care" },
       { name: "description", content: "Reach out for a free, confidential conversation. We'll help match you to the right mental health or substance use care." },
-      { property: "og:title", content: "Contact — Haven Care" },
+      { property: "og:title", content: "Contact — Align Care" },
       { property: "og:description", content: "Free, confidential care matching for mental health and substance use treatment." },
     ],
   }),
