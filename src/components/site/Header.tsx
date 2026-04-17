@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Heart } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 export function Header() {
   const linkCls = "text-sm font-medium text-muted-foreground hover:text-primary transition-colors";
@@ -9,10 +9,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
         <Link to="/" className="flex items-center gap-2">
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[image:var(--gradient-hero)] shadow-[var(--shadow-soft)]">
-            <Heart className="h-4 w-4 text-primary-foreground" fill="currentColor" />
-          </div>
-          <span className="text-lg font-semibold tracking-tight text-foreground">Align Care</span>
+          <img src={logo} alt="Align Care Group logo" className="h-10 w-auto" />
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
           <Link to="/" className={linkCls} activeOptions={{ exact: true }} activeProps={activeCls}>Home</Link>

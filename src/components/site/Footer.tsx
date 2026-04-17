@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Heart } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 export function Footer() {
   return (
@@ -7,12 +7,7 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-12">
         <div className="grid gap-8 md:grid-cols-4">
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[image:var(--gradient-hero)]">
-                <Heart className="h-4 w-4 text-primary-foreground" fill="currentColor" />
-              </div>
-              <span className="text-base font-semibold text-foreground">Align Care</span>
-            </div>
+            <img src={logo} alt="Align Care Group logo" className="h-12 w-auto" />
             <p className="mt-4 max-w-sm text-sm text-muted-foreground">
               Connecting people with compassionate, evidence-based mental health and substance use care — matched to your clinical needs.
             </p>
