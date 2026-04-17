@@ -7,7 +7,7 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-12">
         <div className="grid gap-8 md:grid-cols-4">
           <div className="md:col-span-2">
-            <img src={logo} alt="Align Care Group logo" className="h-12 w-auto" />
+            <img src={logo} alt="Align Care Group logo" className="h-24 w-auto" />
             <p className="mt-4 max-w-sm text-sm text-muted-foreground">
               Connecting people with compassionate, evidence-based mental health and substance use care — matched to your clinical needs.
             </p>

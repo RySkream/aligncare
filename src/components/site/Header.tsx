@@ -7,9 +7,9 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur-md">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
+      <div className="mx-auto flex h-24 max-w-6xl items-center justify-between px-6">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="Align Care Group logo" className="h-10 w-auto" />
+          <img src={logo} alt="Align Care Group logo" className="h-20 w-auto" />
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
           <Link to="/" className={linkCls} activeOptions={{ exact: true }} activeProps={activeCls}>Home</Link>
