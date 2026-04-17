@@ -6,9 +6,9 @@ import { Brain, Pill, Users, Activity, Home, Stethoscope } from "lucide-react";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — Haven Care" },
+      { title: "Services — Align Care" },
       { name: "description", content: "Explore mental health and substance use services matched to your clinical needs: therapy, IOP/PHP, medication, detox, and residential care." },
-      { property: "og:title", content: "Services — Haven Care" },
+      { property: "og:title", content: "Services — Align Care" },
       { property: "og:description", content: "Therapy, IOP/PHP, medication management, detox, and residential recovery — matched to clinical need." },
     ],
   }),

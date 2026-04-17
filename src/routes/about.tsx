@@ -6,9 +6,9 @@ import { HeartHandshake, ShieldCheck, Compass, Users } from "lucide-react";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Haven Care" },
-      { name: "description", content: "Haven Care is a clinical care navigation service helping people find the right mental health and substance use treatment based on their needs." },
-      { property: "og:title", content: "About — Haven Care" },
+      { title: "About — Align Care" },
+      { name: "description", content: "Align Care is a clinical care navigation service helping people find the right mental health and substance use treatment based on their needs." },
+      { property: "og:title", content: "About — Align Care" },
       { property: "og:description", content: "Compassionate, clinically-driven care matching for mental health and substance use." },
     ],
   }),
@@ -29,7 +29,7 @@ function About() {
         <div className="mx-auto max-w-4xl px-6 py-20 text-center">
           <h1 className="text-4xl font-semibold tracking-tight text-foreground md:text-5xl">Healing should never feel like a maze.</h1>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            Haven Care was built on a simple belief: people in pain shouldn't have to navigate a fragmented system alone. We bridge the gap between asking for help and finding the right care.
+            Align Care was built on a simple belief: people in pain shouldn't have to navigate a fragmented system alone. We bridge the gap between asking for help and finding the right care.
           </p>
         </div>
       </section>

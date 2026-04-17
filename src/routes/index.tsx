@@ -7,9 +7,9 @@ import heroImg from "@/assets/hero.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Haven Care — Find the right mental health & recovery care" },
+      { title: "Align Care — Find the right mental health & recovery care" },
       { name: "description", content: "We match you with mental health and substance use treatment based on your clinical needs. Compassionate, confidential, evidence-based." },
-      { property: "og:title", content: "Haven Care — Find the right mental health & recovery care" },
+      { property: "og:title", content: "Align Care — Find the right mental health & recovery care" },
       { property: "og:description", content: "Personalized care matching for mental health and substance use, based on clinical needs." },
     ],
   }),
@@ -31,7 +31,7 @@ function Index() {
               Find the right care for your <span className="text-primary">mind</span> and <span className="text-primary">recovery</span>.
             </h1>
             <p className="mt-6 max-w-lg text-lg text-muted-foreground">
-              Haven Care guides people facing mental health and substance use challenges to providers and programs matched to their clinical needs — not guesswork.
+              Align Care guides people facing mental health and substance use challenges to providers and programs matched to their clinical needs — not guesswork.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button asChild variant="hero" size="xl">
@@ -113,7 +113,7 @@ function Index() {
       <section className="mx-auto max-w-4xl px-6 py-20">
         <figure className="rounded-3xl border border-border bg-card p-10 text-center shadow-[var(--shadow-soft)]">
           <blockquote className="text-xl font-medium leading-relaxed text-foreground md:text-2xl">
-            “I didn't know where to start. Haven Care listened, understood what I was going through, and connected me with a therapist who actually fit. It changed everything.”
+            “I didn't know where to start. Align Care listened, understood what I was going through, and connected me with a therapist who actually fit. It changed everything.”
           </blockquote>
           <figcaption className="mt-6 text-sm text-muted-foreground">— Jordan M., matched in 2 days</figcaption>
         </figure>
