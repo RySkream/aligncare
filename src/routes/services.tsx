@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     q: "Do you accept insurance for addiction and mental health treatment?",
-    a: "Yes. We work with most major insurance carriers and verify benefits before you commit to anything. Our team handles pre-authorization and explains your coverage clearly so there are no surprises.",
+    a: "Yes. Our partners accept most major health insurance and verify benefits before you commit to anything. Our team explains your coverage clearly so there are no surprises.",
   },
   {
     q: "Is treatment confidential and HIPAA-compliant?",
