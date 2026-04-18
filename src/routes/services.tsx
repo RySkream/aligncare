@@ -1,27 +1,30 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/site/Layout";
 import { Button } from "@/components/ui/button";
-import { Brain, Pill, Users, Activity, Home, Stethoscope } from "lucide-react";
+import { Brain, Pill, Users, Activity, Home, Stethoscope, LifeBuoy, HandHeart } from "lucide-react";
 
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services — Align Care" },
-      { name: "description", content: "Explore mental health and substance use services matched to your clinical needs: therapy, IOP/PHP, medication, detox, and residential care." },
-      { property: "og:title", content: "Services — Align Care" },
-      { property: "og:description", content: "Therapy, IOP/PHP, medication management, detox, and residential recovery — matched to clinical need." },
+      { title: "Mental Health, Addiction Treatment & Intervention Services | Align Care" },
+      { name: "description", content: "Nationwide mental health and addiction treatment services: professional interventions, sober companions, therapy, IOP/PHP, medication management, detox, and residential recovery — matched to your clinical needs." },
+      { name: "keywords", content: "professional intervention services, sober companion, sober coach, addiction treatment, mental health treatment, drug intervention, alcohol intervention, IOP, PHP, detox, residential treatment, recovery support, dual diagnosis, substance abuse help" },
+      { property: "og:title", content: "Mental Health, Addiction Treatment & Intervention Services | Align Care" },
+      { property: "og:description", content: "Expert interventions, sober companions, therapy, IOP/PHP, medication management, detox, and residential recovery — matched to clinical need." },
     ],
   }),
   component: Services,
 });
 
 const services = [
-  { icon: Brain, title: "Outpatient Therapy", desc: "Individual, couples, family, and group therapy with licensed clinicians specializing in anxiety, depression, trauma, and more." },
-  { icon: Activity, title: "Intensive Outpatient (IOP)", desc: "Structured group-based programs several days a week — for those who need more support than weekly therapy." },
-  { icon: Stethoscope, title: "Partial Hospitalization (PHP)", desc: "Day-treatment programs offering intensive clinical care while you live at home." },
-  { icon: Pill, title: "Medication Management", desc: "Psychiatric evaluation, prescribing, and ongoing medication monitoring with board-certified providers." },
-  { icon: Users, title: "Substance Use Treatment", desc: "Evidence-based recovery programs including MAT, group counseling, and relapse prevention." },
-  { icon: Home, title: "Detox & Residential", desc: "Medically supervised detoxification and residential treatment for safe, supported recovery." },
+  { icon: HandHeart, title: "Professional Intervention Services", desc: "Compassionate, family-led interventions guided by certified interventionists. We help families confront addiction and mental health crises and move loved ones into the right level of treatment — safely and quickly." },
+  { icon: LifeBuoy, title: "Sober Companion & Recovery Coaching", desc: "24/7 sober companions and recovery coaches who provide one-on-one support during early recovery, travel, transitions, and high-risk moments — protecting sobriety wherever life takes you." },
+  { icon: Brain, title: "Outpatient Therapy", desc: "Individual, couples, family, and group therapy with licensed clinicians specializing in anxiety, depression, trauma, PTSD, and co-occurring disorders." },
+  { icon: Activity, title: "Intensive Outpatient (IOP)", desc: "Structured group-based programs several days a week — for those who need more support than weekly therapy but want to stay in their daily lives." },
+  { icon: Stethoscope, title: "Partial Hospitalization (PHP)", desc: "Day-treatment programs offering intensive clinical care for mental health and substance use while you live at home or in supportive housing." },
+  { icon: Pill, title: "Medication Management", desc: "Psychiatric evaluation, prescribing, and ongoing medication monitoring — including MAT (Medication-Assisted Treatment) — with board-certified providers." },
+  { icon: Users, title: "Substance Use & Addiction Treatment", desc: "Evidence-based recovery programs for alcohol, opioids, stimulants, and polysubstance use — including group counseling, relapse prevention, and family support." },
+  { icon: Home, title: "Detox & Residential Treatment", desc: "Medically supervised detoxification and 24/7 residential treatment for safe, structured, and supported recovery from drugs and alcohol." },
 ];
 
 function Services() {
