@@ -63,37 +63,35 @@
 
 :root {
   --radius: 0.875rem;
-  /* Soft cool background, deep navy foreground */
-  --background: oklch(0.985 0.008 240);
-  --foreground: oklch(0.25 0.08 255);
+  /* Cool gray background, deep navy foreground */
+  --background: oklch(0.98 0.004 240);
+  --foreground: oklch(0.25 0.05 255);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.25 0.08 255);
+  --card-foreground: oklch(0.25 0.05 255);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.25 0.08 255);
+  --popover-foreground: oklch(0.25 0.05 255);
   /* Deep navy blue (matches logo wordmark) */
   --primary: oklch(0.35 0.11 255);
-  --primary-foreground: oklch(0.985 0.008 240);
+  --primary-foreground: oklch(0.98 0.004 240);
   --primary-glow: oklch(0.6 0.14 235);
-  /* Light sky-blue secondary */
-  --secondary: oklch(0.9 0.04 230);
-  --secondary-foreground: oklch(0.3 0.1 255);
-  --muted: oklch(0.95 0.015 235);
-  --muted-foreground: oklch(0.5 0.05 245);
-  --accent: oklch(0.78 0.1 220);
-  --accent-foreground: oklch(0.25 0.1 255);
+  /* Cool gray secondary */
+  --secondary: oklch(0.93 0.008 240);
+  --secondary-foreground: oklch(0.3 0.08 255);
+  --muted: oklch(0.95 0.005 240);
+  --muted-foreground: oklch(0.5 0.02 245);
+  --accent: oklch(0.6 0.14 235);
+  --accent-foreground: oklch(0.98 0.004 240);
   --destructive: oklch(0.577 0.18 27);
   --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.9 0.025 235);
-  --input: oklch(0.92 0.025 235);
+  --border: oklch(0.9 0.01 240);
+  --input: oklch(0.92 0.01 240);
   --ring: oklch(0.55 0.12 240);
 
-  /* Custom design tokens */
-  --gradient-hero: linear-gradient(135deg, oklch(0.35 0.11 255) 0%, oklch(0.6 0.14 220) 100%);
-  --gradient-soft: linear-gradient(180deg, oklch(0.985 0.008 240) 0%, oklch(0.92 0.05 230) 100%);
-  --gradient-warm: linear-gradient(135deg, oklch(0.96 0.02 235) 0%, oklch(0.9 0.06 225) 100%);
-  --shadow-soft: 0 4px 20px -8px oklch(0.35 0.11 255 / 0.18);
-  --shadow-elegant: 0 20px 50px -20px oklch(0.35 0.11 255 / 0.3);
-  --shadow-glow: 0 0 60px oklch(0.6 0.14 235 / 0.4);
+  /* Custom design tokens — flat colors, no gradients */
+  --surface-muted: oklch(0.95 0.005 240);
+  --shadow-soft: 0 4px 20px -8px oklch(0.35 0.05 255 / 0.12);
+  --shadow-elegant: 0 20px 50px -20px oklch(0.35 0.05 255 / 0.18);
+  --shadow-glow: 0 0 0 1px oklch(0.35 0.11 255 / 0.15);
   --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
