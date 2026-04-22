@@ -21,7 +21,7 @@ export function Header() {
           to="/contact"
           className="inline-flex h-10 items-center justify-center rounded-lg bg-primary px-5 text-sm font-medium text-primary-foreground shadow-[var(--shadow-soft)] transition-all hover:shadow-[var(--shadow-glow)] hover:-translate-y-0.5 font-sans"
         >
-          CALL US
+          Call Now
         </Link>
       </div>
     </header>
