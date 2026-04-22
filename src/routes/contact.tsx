@@ -43,7 +43,7 @@ function Contact() {
               <div className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
                 <Mail className="h-5 w-5 text-primary" />
                 <h3 className="mt-3 text-base font-semibold text-foreground">Email</h3>
-                <a href="mailto:care@havencare.com" className="mt-2 block text-sm text-primary">care@havencare.com</a>
+                <a href="mailto:info@wealigncare.com" className="mt-2 block text-sm text-primary">info@wealigncare.com</a>
               </div>
             </div>
           </div>
