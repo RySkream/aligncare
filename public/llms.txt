@@ -1,0 +1,16 @@
+# Align Care
+
+> Align Care connects people and families with compassionate, evidence-based mental health and substance use treatment — matched to clinical needs across the full continuum of care, from interventions and sober companions to therapy, IOP/PHP, medical detox, and residential treatment.
+
+## Pages
+
+- [Home](/): Overview of Align Care and how we match people to the right level of care.
+- [Services](/services): Addiction treatment, professional interventions, sober companions, therapy, IOP, PHP, medication management, detox, and residential treatment.
+- [About](/about): Our mission, clinical approach, and the team behind Align Care.
+- [Contact](/contact): Reach a care navigator by phone, email, or secure message — free and confidential.
+
+## Contact
+
+- Phone: (888) 970-2304
+- Email: info@wealigncare.com
+- Crisis: Call or text 988 for 24/7 support.
