@@ -38,7 +38,7 @@ function Contact() {
                 <Phone className="h-5 w-5 text-primary" />
                 <h3 className="mt-3 text-base font-semibold text-foreground">Call us</h3>
                 <p className="mt-1 text-sm text-muted-foreground">Mon–Fri, 8am–8pm</p>
-                <a href="tel:18005551234" className="mt-2 block text-lg font-semibold text-primary">(800) 555-1234</a>
+                <a href="tel:18889702304" className="mt-2 block text-lg font-semibold text-primary">(888) 970-2304</a>
               </div>
               <div className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
                 <Mail className="h-5 w-5 text-primary" />
