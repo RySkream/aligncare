@@ -40,6 +40,7 @@ export const Route = createRootRoute({
       { name: "twitter:description", content: "Confidential clinical matching for mental health and substance use treatment." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f0149928-bc45-4bd8-877e-833f72f0e06a/id-preview-4575aa5d--c8d40fe5-1e98-4771-a145-fb63988a11e9.lovable.app-1776528221728.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f0149928-bc45-4bd8-877e-833f72f0e06a/id-preview-4575aa5d--c8d40fe5-1e98-4771-a145-fb63988a11e9.lovable.app-1776528221728.png" },
+      { name: "google-site-verification", content: "U9nrNvL0URUnB2vLYIkBpEQdJc_WqW1hh-ExMsRHBH0" },
     ],
     links: [
       {
