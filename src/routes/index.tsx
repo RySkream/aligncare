@@ -15,6 +15,28 @@ export const Route = createFileRoute("/")({
     links: [
       { rel: "canonical", href: "https://wealigncare.com/" },
     ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "MedicalBusiness",
+          name: "Align Care",
+          description: "Clinical care navigation matching individuals to mental health and substance use treatment based on their clinical needs.",
+          url: "https://wealigncare.com/",
+          telephone: "+1-888-970-2304",
+          email: "info@wealigncare.com",
+          medicalSpecialty: ["Psychiatry", "AddictionMedicine", "Psychology"],
+          areaServed: "United States",
+          openingHoursSpecification: [{
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            opens: "08:00",
+            closes: "20:00",
+          }],
+        }),
+      },
+    ],
   }),
   component: Index,
 });
