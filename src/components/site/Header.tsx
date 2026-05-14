@@ -51,23 +51,27 @@ export function Header() {
           </button>
         </div>
       </div>
-      {open && (
-        <nav id="mobile-nav" className="md:hidden border-t border-border/60 bg-background">
-          <div className="mx-auto max-w-6xl px-4 py-3 space-y-1">
-            <Link to="/" className={mobileLinkCls} activeOptions={{ exact: true }} activeProps={mobileActiveCls} onClick={close}>Home</Link>
-            <Link to="/services" className={mobileLinkCls} activeProps={mobileActiveCls} onClick={close}>Services</Link>
-            <Link to="/about" className={mobileLinkCls} activeProps={mobileActiveCls} onClick={close}>About</Link>
-            <Link to="/contact" className={mobileLinkCls} activeProps={mobileActiveCls} onClick={close}>Contact</Link>
-            <Link
-              to="/contact"
-              onClick={close}
-              className="mt-2 inline-flex w-full h-11 items-center justify-center rounded-lg bg-primary px-5 text-base font-medium text-primary-foreground shadow-[var(--shadow-soft)]"
-            >
-              Get Free Care Match
-            </Link>
-          </div>
-        </nav>
-      )}
+      <nav
+        id="mobile-nav"
+        className={`md:hidden overflow-hidden border-t border-border/60 bg-background transition-all duration-300 ease-out ${
+          open ? "max-h-96 opacity-100" : "max-h-0 opacity-0 pointer-events-none"
+        }`}
+        aria-hidden={!open}
+      >
+        <div className={`mx-auto max-w-6xl px-4 py-3 space-y-1 ${open ? "animate-fade-in" : ""}`}>
+          <Link to="/" className={mobileLinkCls} activeOptions={{ exact: true }} activeProps={mobileActiveCls} onClick={close}>Home</Link>
+          <Link to="/services" className={mobileLinkCls} activeProps={mobileActiveCls} onClick={close}>Services</Link>
+          <Link to="/about" className={mobileLinkCls} activeProps={mobileActiveCls} onClick={close}>About</Link>
+          <Link to="/contact" className={mobileLinkCls} activeProps={mobileActiveCls} onClick={close}>Contact</Link>
+          <Link
+            to="/contact"
+            onClick={close}
+            className="mt-2 inline-flex w-full h-11 items-center justify-center rounded-lg bg-primary px-5 text-base font-medium text-primary-foreground shadow-[var(--shadow-soft)]"
+          >
+            Get Free Care Match
+          </Link>
+        </div>
+      </nav>
     </header>
   );
 }
