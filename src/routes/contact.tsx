@@ -33,9 +33,9 @@ export const Route = createFileRoute("/contact")({
           areaServed: "United States",
           openingHoursSpecification: [{
             "@type": "OpeningHoursSpecification",
-            dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-            opens: "08:00",
-            closes: "20:00",
+            dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            opens: "00:00",
+            closes: "23:59",
           }],
         }),
       },
@@ -62,7 +62,7 @@ function Contact() {
               <div className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
                 <Phone className="h-5 w-5 text-primary" />
                 <h3 className="mt-3 text-base font-semibold text-foreground">Call us</h3>
-                <p className="mt-1 text-sm text-muted-foreground">Mon–Fri, 8am–8pm</p>
+                <p className="mt-1 text-sm text-muted-foreground">Available 24/7 — every day of the year</p>
                 <a href="tel:18889702304" className="mt-2 block text-lg font-semibold text-primary">(888) 970-2304</a>
               </div>
               <div className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
