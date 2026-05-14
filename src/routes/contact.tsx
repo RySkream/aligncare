@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Phone, Mail, MessageCircle, CheckCircle2 } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
@@ -120,6 +121,19 @@ function Contact() {
                 <div className="space-y-2">
                   <Label htmlFor="needs">What kind of support are you looking for?</Label>
                   <Textarea id="needs" required rows={5} placeholder="Share as much or as little as you'd like — symptoms, history, what's been hard, what you've tried." />
+                </div>
+                <div className="space-y-3">
+                  <Label>Payment method</Label>
+                  <RadioGroup name="payment" required className="grid gap-2 sm:grid-cols-2">
+                    <Label htmlFor="payment-insurance" className="flex cursor-pointer items-center gap-3 rounded-lg border border-border bg-background p-3 hover:bg-muted">
+                      <RadioGroupItem id="payment-insurance" value="insurance" />
+                      <span>Insurance</span>
+                    </Label>
+                    <Label htmlFor="payment-private" className="flex cursor-pointer items-center gap-3 rounded-lg border border-border bg-background p-3 hover:bg-muted">
+                      <RadioGroupItem id="payment-private" value="private" />
+                      <span>Private pay</span>
+                    </Label>
+                  </RadioGroup>
                 </div>
                 <Button type="submit" size="lg" className="w-full">Send securely</Button>
                 <p className="text-center text-xs text-muted-foreground">Your information is encrypted and HIPAA-compliant.</p>
