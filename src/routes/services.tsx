@@ -6,8 +6,8 @@ import { Brain, Pill, Users, Activity, Home, Stethoscope, LifeBuoy, HandHeart } 
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Addiction Treatment, Intervention & Mental Health Services | Align Care" },
-      { name: "description", content: "Nationwide addiction treatment, professional interventions, sober companions, therapy, IOP/PHP, medication management, detox & residential recovery. Evidence-based, insurance-friendly care matched to your clinical needs. Call 24/7." },
+      { title: "Addiction & Mental Health Services — Align Care" },
+      { name: "description", content: "Interventions, sober companions, therapy, IOP/PHP, medication management, detox & residential recovery — matched to your clinical needs." },
       { name: "keywords", content: "addiction treatment, drug rehab, alcohol rehab, professional intervention services, certified interventionist, sober companion, sober coach, recovery coaching, mental health treatment, dual diagnosis treatment, IOP, PHP, medical detox, residential treatment, MAT, medication assisted treatment, substance abuse help, anxiety treatment, depression treatment, trauma therapy, PTSD treatment" },
       { name: "robots", content: "index, follow, max-image-preview:large, max-snippet:-1" },
       { name: "author", content: "Align Care" },
@@ -21,7 +21,7 @@ export const Route = createFileRoute("/services")({
       { name: "twitter:description", content: "Expert interventions, sober companions, therapy, IOP/PHP, detox & residential recovery — matched to clinical need." },
     ],
     links: [
-      { rel: "canonical", href: "https://embrace-your-care.lovable.app/services" },
+      { rel: "canonical", href: "https://wealigncare.com/services" },
     ],
   }),
   component: Services,
