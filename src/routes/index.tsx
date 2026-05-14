@@ -12,6 +12,9 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "Align Care — Find the right mental health & recovery care" },
       { property: "og:description", content: "Personalized care matching for mental health and substance use, based on clinical needs." },
     ],
+    links: [
+      { rel: "canonical", href: "https://wealigncare.com/" },
+    ],
   }),
   component: Index,
 });

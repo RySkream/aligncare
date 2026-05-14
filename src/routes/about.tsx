@@ -11,6 +11,9 @@ export const Route = createFileRoute("/about")({
       { property: "og:title", content: "About — Align Care" },
       { property: "og:description", content: "Compassionate, clinically-driven care matching for mental health and substance use." },
     ],
+    links: [
+      { rel: "canonical", href: "https://wealigncare.com/about" },
+    ],
   }),
   component: About,
 });
